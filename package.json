@@ -2,9 +2,10 @@
   "name": "be-opus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "be": "npm run build && nodemon build/index.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
